@@ -1,0 +1,27 @@
+[2021-08-14T06:11:57.161517] Entering context manager injector.
+[2021-08-14T06:11:59.397605] Using urllib.request Python 3.0 or later
+Streaming log file azureml-logs/60_control_log.txt
+Running: ['cmd.exe', '/c', 'C:\\Users\\ambar\\AppData\\Local\\Temp\\azureml_runs\\mslearn-diabetes_1628921512_47b18818\\azureml-environment-setup/conda_env_checker.bat']
+Starting the daemon thread to refresh tokens in background for process with pid = 14284
+Found materialized conda environment in: C:\Users\ambar/.azureml/envs/azureml_809a074975457de1dd27bdfcf2d79d61
+
+
+Running: ['C:\\Users\\ambar/.azureml/envs/azureml_809a074975457de1dd27bdfcf2d79d61/python.exe', 'azureml-setup/run_script.py', '$USERPROFILE/.azureml/envs/azureml_809a074975457de1dd27bdfcf2d79d61/python.exe', 'azureml-setup/context_manager_injector.py', '-i', 'ProjectPythonPath:context_managers.ProjectPythonPath', '-i', 'RunHistory:context_managers.RunHistory', '-i', 'TrackUserError:context_managers.TrackUserError', 'diabetes_experiment.py']
+[2021-08-14T06:11:59.624495] Logging experiment running status in history service.
+Streaming log file azureml-logs/70_driver_log.txt
+Starting the daemon thread to refresh tokens in background for process with pid = 18904
+Script process exited with code 0
+Uploading driver log...
+Finalizing run...
+Failed to retrieve VM information
+<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2021-08-14T11:42:31.795171] get vm size and vm region successfully.
+[2021-08-14T11:42:31.816346] get compute meta data successfully.
+[2021-08-14T11:42:32.148947] post artifact meta request successfully.
+[2021-08-14T11:42:32.422963] upload compute record artifact successfully.
+
+Script process exited with code 0
+
+
+
+Uploading control log...
